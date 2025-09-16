@@ -8,10 +8,10 @@ public class Counter : MonoBehaviour
 
     [SerializeField] private MouseClickReader _mouseClickInput;
     [SerializeField] private int _currentTime;
+    private Coroutine _countingCoroutine;
 
     public event UnityAction<int> CountUpdated;
     
-    private Coroutine _countingCoroutine;
     private bool _isCounting => _countingCoroutine != null;
 
     private void Start()
