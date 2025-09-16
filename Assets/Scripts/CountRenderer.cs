@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class CountDisplay : MonoBehaviour
+public class CountRenderer : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _textDisplay;
     [SerializeField] private Counter counter;

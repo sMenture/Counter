@@ -6,7 +6,7 @@ public class Counter : MonoBehaviour
 {
     private const float DelayTimer = 0.5f;
 
-    [SerializeField] private MouseClickInput _mouseClickInput;
+    [SerializeField] private MouseClickReader _mouseClickInput;
     [SerializeField] private int _currentTime;
 
     public event UnityAction<int> CountUpdated;

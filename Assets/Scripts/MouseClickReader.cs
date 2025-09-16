@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class MouseClickInput : MonoBehaviour
+public class MouseClickReader : MonoBehaviour
 {
     private const int MouseCode = 0; 
 
