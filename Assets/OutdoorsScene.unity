@@ -484,7 +484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 398c049b8d5189942aa0a73e8a96d4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseClickInput: {fileID: 269728369}
+  _mouseClickInput: {fileID: 269728369}
   _currentTime: 0
 --- !u!114 &269728371
 MonoBehaviour:
